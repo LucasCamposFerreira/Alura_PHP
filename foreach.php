@@ -15,6 +15,13 @@ $contasCorrentes = [
     ]
 ];
 
+$contasCorrentes['
+123.456.879-12'] = [
+    'titular' => 'Kátia',
+    'saldo' => 1500.00
+
+];
+
 foreach ($contasCorrentes as $cpf => $contas) {
     echo $cpf . "</br>";
 
