@@ -10,3 +10,4 @@ function sacar(array $conta, float $valorASacar): array
 
     return $conta;
 }
+
